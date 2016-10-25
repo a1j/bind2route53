@@ -9,3 +9,5 @@ Tool to import DNS zone into route53 format...
 
 This will produce json batch jobs to feed to aws cli tool via 
 `aws route53 change-resource-record-sets --hosted-zone-id <ZONEID> --change-batch  file://domain.com.json`
+
+Note that program automatically strips NS and SOA records because those are provided by route53 itself.
