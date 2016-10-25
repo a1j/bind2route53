@@ -1,7 +1,7 @@
-## bind2route53
+# bind2route53
 Tool to import DNS zone into route53 format...
 
-# Installation
+## Usage
 
 - Install dnspython (in Debian do `aptitude install python-dnspython`)
 - Obtain zone file
